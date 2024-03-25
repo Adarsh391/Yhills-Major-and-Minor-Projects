@@ -1,0 +1,324 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  color: #333333;
+  font-weight: bold;
+}
+
+.logo {
+  margin: 0 10px 0 10px;
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #321c1c;
+}
+
+.navbar-nav .nav-link:hover {
+  font-weight: 600;
+  color: #000;
+}
+
+/* Home Page Styles */
+#home {
+  background-image: url("IMG/BG-4.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+#home h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 1.5em;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+#home button.btn {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+#home button.btn:hover {
+  background-color: #10365f;
+  border-color: #007bff;
+}
+
+/*  About */
+.about_wrapper {
+  padding-top: 5rem;
+  height: 100vh;
+  font-size: 18px;
+}
+
+.img-fluid {
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+}
+
+/* Services Section */
+#services {
+  background-color: #f8f9fa;
+}
+
+.service-item {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  width: 250px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1em;
+  color: #6c757d;
+}
+/* Testimonials Section */
+#testimonials {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.testimonial-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Testimonial Modals */
+.modal-body {
+  text-align: center;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Team Section */
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 200px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Gallery Carousel Styles */
+.carousel {
+  margin-bottom: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 500px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 60px 0;
+}
+
+#contact h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Form Styles */
+#contactForm {
+  margin-bottom: 40px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+  margin-top: 5px;
+}
+
+/* Contact Modal Styles */
+#contactModal .modal-title {
+  font-weight: bold;
+}
+
+#contactModal .form-label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+#contactModal .form-control {
+  border-radius: 10px;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #ced4da;
+}
+
+#contactModal .invalid-feedback {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+}
+
+#contactModal .btn-primary {
+  border-radius: 10px;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#contactModal .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li a {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+footer ul li img {
+  width: 40px;
+  border-radius: 20px;
+}
+
+footer ul li a:hover {
+  color: #bbbbbb; 
+}
